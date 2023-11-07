@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Onboarding
+
+  Created by Regis Araujo Melo on 18/10/23.
+  
+*/
+
+"welcome.label.title" = "Faça minhas memórias";
+"welcome.label.subtitle" = "Grave, recupere e compartilhe suas memórias favoritas a qualquer momento.";
