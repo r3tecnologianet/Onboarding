@@ -27,7 +27,7 @@ let package = Package(
         .target(
             name: "Onboarding",
             dependencies: [
-                "Networking"
+                "R3Networking"
             ]
         ),
         .testTarget(
