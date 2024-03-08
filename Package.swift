@@ -16,10 +16,7 @@ let package = Package(
             targets: ["Onboarding"]),
     ],
     dependencies: [
-        .package(
-            url: "https://github.com/r3tecnologianet/Networking.git",
-            .upToNextMajor(from: "0.1.2")
-        )
+        
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -27,7 +24,6 @@ let package = Package(
         .target(
             name: "Onboarding",
             dependencies: [
-                "R3Networking"
             ]
         ),
         .testTarget(
