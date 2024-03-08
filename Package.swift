@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/r3tecnologianet/Networking.git",
+            url: "git@github.com:r3tecnologianet/Networking.git",
             .upToNextMajor(from: "0.1.3")
         )
     ],
